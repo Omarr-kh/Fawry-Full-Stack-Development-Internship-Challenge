@@ -52,10 +52,10 @@ public class Main {
 
         System.out.println();
         System.out.println("----------------------\nExample 3");
-        Customer poorCustomer = new Customer("Poor Customer", 100);
-        Cart expensiveCart = new Cart();
-        expensiveCart.add(tv, 2);
-        CheckoutService.checkout(poorCustomer, expensiveCart);
+        Customer customer3 = new Customer("Poor Customer", 100);
+        Cart cart3 = new Cart();
+        cart3.add(tv, 2);
+        CheckoutService.checkout(customer3, cart3);
 
         System.out.println();
         System.out.println("----------------------\nExample 4");
